@@ -27,7 +27,7 @@ def run_training():
     model.fit(X_train, y_train)
 
     # Persist the trained model 
-    joblib.dump(model, "logistic_regression_v1.pkl")
+    joblib.dump(model, "model.pkl")
 
 if __name__ == "__main__":
     run_training()
