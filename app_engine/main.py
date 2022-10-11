@@ -1,6 +1,6 @@
 import numpy as np 
 from flask import Flask, request
-from app_engine.predict import make_prediction
+from predict import make_prediction
 
 app = Flask(__name__)
 
